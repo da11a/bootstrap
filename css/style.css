@@ -1,0 +1,42 @@
+
+.text_1 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 14px;
+    color: #a4a4a4;
+}
+.form_1 {
+    width: 41.5px;
+    height: 41.5px;
+    border-radius: 20.75px;
+    opacity: 0.16;
+}
+.list_view {
+    background: 0;
+    color: #b5b5b5;
+}
+.figure_circle {
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+}
+  
+@media (max-width: 991.98px) {
+    #hide {
+      position: absolute;
+      min-width: 300px;
+      z-index: 1021;
+}
+}
+@media (max-width: 991.98px) {
+    #hide_2 {
+      position: absolute;
+      right: 0;
+      min-width: 300px;
+      z-index: 1021;
+}
+}
+.scrollbar_style::-webkit-scrollbar-thumb{
+    width: 7px;
+    height: 200px;
+    border-radius: 3.5px;
+}
