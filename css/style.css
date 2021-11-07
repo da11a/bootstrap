@@ -35,8 +35,30 @@
       z-index: 1021;
 }
 }
-.scrollbar_style::-webkit-scrollbar-thumb{
-    width: 7px;
+#scrollbar_style_1{
+    overflow-y: auto;
+    
     height: 200px;
-    border-radius: 3.5px;
+    background-color: rgba(37, 39, 42, 0.75);
+}
+#scrollbar_style_1::-webkit-scrollbar{
+    width: 8px;
+    background-color: rgba(37, 39, 42, 0.75);
+}
+#scrollbar_style_1::-webkit-scrollbar-thumb{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+}
+#scrollbar_style_2{
+    overflow-y: auto;
+    height: 200px;
+    background-color: white;
+}
+#scrollbar_style_2::-webkit-scrollbar{
+    width: 8px;
+    background-color: white;
+}
+#scrollbar_style_2::-webkit-scrollbar-thumb{
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
 }
